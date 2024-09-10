@@ -1,18 +1,17 @@
 ---
-id: intro
-title: Introduction
+id: introduction
+title: Introduction à l'application DigiCard
+description: Introduction générale du projet DigiCard - application de scan de QR codes
 ---
 
-# Documentation Système de Digicard
+# Introduction
 
-Bienvenue dans la documentation système de Digicard. Cette section couvre tous les aspects techniques de l'application, y compris les exigences, la conception UX, l'architecture logicielle, la conception technique, la documentation du code source, l'assurance qualité et la documentation de l'API.
+Bienvenue dans la documentation officielle de DigiCard, une application mobile permettant de scanner et d'analyser des QR codes. Ce projet est développé avec les technologies suivantes :
 
-## Contenu
+- **Frontend** : React Native avec Expo
+- **Backend** : Node.js
+- **Base de données** : PostgreSQL
 
-- [Exigences du Produit](product-requirements)
-- [Conception UX](ux-design)
-- [Architecture Logicielle](software-architecture)
-- [Conception Technique](technical-design)
-- [Documentation du Code Source](source-code)
-- [Assurance Qualité](quality-assurance)
-- [Documentation de l'API](api)
+DigiCard offre une interface simple et intuitive pour scanner différents types de QR codes, les analyser et afficher les résultats de manière adaptée. Le projet utilise également l'API VirusTotal pour la vérification de la sécurité des URL scannées.
+
+Cette documentation vous guidera à travers l'installation, la structure du projet et les fonctionnalités principales, en expliquant chaque composant clé du projet.
